@@ -21,12 +21,12 @@ tab = Hash.new #on crée un nouveau Hash, dans lequel on va stocker le nom des c
 	correspond à la longueur de notre tableau
 	et on termine par puts notre hash
 =end
-while 1
+
 	for i in 0 .. (name_list.length-1)
 	tab[name_list[i].text] = [price_list[i]['data-usd']] 
 	
 	end
-end
+
 #un petit timer pour que le code dort 1h et puis se relance
 puts tab
 puts "-----------------------------------------------------------------"
